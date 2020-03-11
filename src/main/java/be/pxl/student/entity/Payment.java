@@ -5,11 +5,11 @@ import java.time.LocalDateTime;
 public class Payment {
 
     private LocalDateTime date;
-    private float amount;
+    private double amount;
     private String currency;
     private String detail;
 
-    public Payment(LocalDateTime date, float amount, String currency, String detail) {
+    public Payment(LocalDateTime date, double amount, String currency, String detail) {
         this.date = date;
         this.amount = amount;
         this.currency = currency;
@@ -24,11 +24,11 @@ public class Payment {
         this.date = date;
     }
 
-    public float getAmount() {
+    public double getAmount() {
         return amount;
     }
 
-    public void setAmount(float amount) {
+    public void setAmount(double amount) {
         this.amount = amount;
     }
 

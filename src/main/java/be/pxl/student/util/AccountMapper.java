@@ -1,6 +1,11 @@
 package be.pxl.student.util;
 
-public class AccountMapper {
+import be.pxl.student.entity.Account;
 
+public class AccountMapper {
+    public Account map(String validLine){
+        return null;
+    }
 
 }
+
